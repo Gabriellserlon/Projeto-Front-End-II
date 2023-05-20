@@ -1,0 +1,51 @@
+<!DOCTYPE	html>
+
+	<head>
+		<link href="CSS/Style.css" rel="stylesheet"/>
+		<title>Tripulação</title>
+		<meta charset="utf-8">
+	</head>
+
+
+	<body>
+
+		<div id="corposite">
+			<header>
+				<div class="logo">
+					<img class="barco" src="imagens/barco1.png" />
+					<div class="txtop">
+						<h1>Luxo</h1>
+						<h2>Aluguel de iates</h2>
+					</div>
+				</div>
+				
+				<nav>
+					<ul>
+						<li><a class="menu" href="Projeto iate.html" >PÁGINA INICIAL</a> </li>
+						<li class="barra"> | </li>
+						<li><a class="menu" href="Aluguel.html" >ALUGUEL DE IATES</a></li>
+						<li class="barra"> | </li>
+						<li><a class="menu" href="Destinos.html" >DESTINOS</a></li>
+						<li class="barra"> | </li>
+						<li><a class="menu" href="admin.html" >ADMIN</a></li>
+						<li class="barra"> | </li>
+						<li><a class="menu" href="Contato.html" >CONTATO</a></li>
+					</ul>
+				</nav>
+						
+			</header>
+		</div>
+		<div id=formAdmin>
+			<form>
+				<label for="email">Email</label>
+				<input type="email" id="emailadmin" class="input-padrao" required placeholder="email@email.com">
+				<label for="senha">Senha</label>
+				<input type="senha" id="senha" class="input-padrao" required placeholder="senha">
+                <input type="submit" value="Conectar" class="enviarAdmin" onclick="login()">
+            </form>
+		</div>
+		<script src="jquery-3.6.4.min.js"></script>
+		<script src="funcoes.js"></script> 
+		<script src="projeto.js"></script>
+    </body>
+</html>
